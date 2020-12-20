@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Lato;
+  font-style: normal;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 43px;  
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 30px;
+}
+
+input {
+  border: 1px solid #333333;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 20px 27px;
+}
+
+.main-text {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: justify;
+}
+
+/* container-1 */
+
+.wrapper-1 {
+  background: #ED4C5C;
+}
+
+.container {
+  width: 1115px;
+  margin: 0 auto;
+}
+
+.container-1 {
+  display: flex;
+  padding: 122px 0;
+}
+
+.left-box {
+  width: 40%;
+}
+
+.right-box {
+  width: calc(60% - 130px);
+  margin-left: 130px;
+  position: relative;
+}
+
+.text-1 {
+  color: #FFFFFF;
+}
+
+.text-2 {
+  margin: 50px 0;
+  color: #FFFFFF;
+}
+
+.icon {
+  width: 134px;
+}
+
+.photo-1 {
+  width: 445px;
+  z-index: 3;
+  position: absolute;
+}
+
+.photo-2 {
+  width: 383px;
+  z-index: 2;
+  position: absolute;
+  left: -45px;
+  top: 20px;
+}
+
+.photo-3 {
+  width: 383px;
+  z-index: 1;
+  position: absolute;
+  left: 110px;
+  top: 20px;
+}
+
+/* container-2 */
+
+.wrapper-2 {
+  background: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.container-2 {
+  display: flex;
+  padding: 122px 0;  
+}
+
+.wrapper-2 .text {
+  margin-top: 45px;
+}
+
+.row {
+  margin-bottom: 25px;
+}
+
+.name-row {
+  display: flex;
+}
+
+.last-name {
+  margin-left: 25px;
+}
+
+.first-name, .last-name {
+  width: 50%;
+} 
+
+.phone, .service {
+  width: 100%;
+}
+
+.button {
+  background: #ED4C5C;
+  border: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 17px 30px;
+}
+
+.button:hover {
+  background-color: #b33945;;
+}
+
+.button:focus {
+  outline: none;
+}
+
+/* container-3 */
+
+.wrapper-3 {
+  background: #FAFAFA;
+  color: #101010;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.container-3 {
+  padding: 80px 0;  
+}
+
+.info-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services {
+  padding-left: 0px;
+}
+
+.services li {
+  list-style-type: none;  
+}
+
+.social-icons img {
+  margin-right: 15px;
+}
+
+.copyright {
+  margin-top: 80px;
+}
