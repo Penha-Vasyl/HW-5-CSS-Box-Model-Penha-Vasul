@@ -20,17 +20,24 @@ h3 {
   margin-bottom: 30px;
 }
 
-input {
+input, select {
   border: 1px solid #333333;
   border-radius: 6px;
   font-size: 16px;
   padding: 20px 27px;
+  outline: none;
 }
 
 .main-text {
   font-size: 14px;
   line-height: 22px;
   text-align: justify;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  padding-bottom: -5px;
 }
 
 /* container-1 */
@@ -69,7 +76,9 @@ input {
 }
 
 .icon {
-  width: 134px;
+  width: 40px;
+  margin-right: 25px;
+  cursor: pointer;
 }
 
 .photo-1 {
@@ -128,6 +137,7 @@ input {
 
 .phone, .service {
   width: 100%;
+  color: rgb(117, 117, 117);
 }
 
 .button {
@@ -137,6 +147,7 @@ input {
   text-transform: uppercase;
   color: #FFFFFF;
   padding: 17px 30px;
+  margin-top: 25px;
 }
 
 .button:hover {
@@ -173,10 +184,15 @@ input {
   list-style-type: none;  
 }
 
+
 .social-icons img {
   margin-right: 15px;
+  cursor: pointer;
 }
 
+.payment{
+  cursor: pointer;
+}
 .copyright {
   margin-top: 80px;
 }
